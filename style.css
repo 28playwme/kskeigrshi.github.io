@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 :root {
   --text: #fff;
@@ -7,6 +8,12 @@
 body {
   background-color: var(--bg);
   color: var(--text);
+}
+
+div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
 }
 
 @media (prefers-color-scheme: light) {
