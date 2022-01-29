@@ -16,7 +16,8 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  text-align: center;
+  min-height: 100vh;
 }
 
 @media (prefers-color-scheme: light) {
